@@ -44,3 +44,8 @@ DO NOT change channel settings via Web GUI or console after reboot — doing so 
 ---
 
 This repository provides instructions and scripts to help you enable channel 165 on Asus routers restricted by EU firmware.
+
+---
+
+## References
+- [Original Gist by francoism90](https://gist.github.com/francoism90/3dede7973354d067c41bff5e54203fe9)
