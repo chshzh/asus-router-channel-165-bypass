@@ -24,12 +24,7 @@ This means even though your hardware supports it, you cannot select channel 149â
 
 ```sh
 #!/bin/sh
-nvram set wl1_country=US
 nvram set wl1_country_code=US
-nvram set wl1_country_abbrev_override=US
-nvram set wl1_chlist="36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161 165"
-nvram set wl1_country_rev=0
-nvram commit
 nvram set wl1_chanspec=165/20
 ```
 
